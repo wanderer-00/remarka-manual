@@ -3,8 +3,8 @@
 
 # Оглавление
 ### Оборудование
-CE7000-60<br>
-Mimaki<br>
-XP600<br>
-МФУ<br>
-FC500VC<br>
+<a src="">CE7000-60</a><br>
+<a src="">Mimaki<br>
+<a src="">XP600<br>
+<a src="">МФУ<br>
+<a src="">FC500VC<br>

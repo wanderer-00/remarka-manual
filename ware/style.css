@@ -12,14 +12,18 @@
 }
 
 .programs {
+    display: flex;
+    grid-gap: 20px;
+    text-align: center;
     border: 1px solid red;
 }
 
-.programs > a {
+.programs a {
+    width: 100px;
     display: block;
     border: 1px solid green;
 }
 
-.programs > a > img {
+.programs a img {
     height: 60px;
 }

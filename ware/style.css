@@ -3,10 +3,23 @@
 }
 
 .WRAPPER {
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 
 .errors img {
     width: 100%
+}
+
+.programs {
+    border: 1px solid red;
+}
+
+.programs > a {
+    display: block;
+    border: 1px solid green;
+}
+
+.programs > a > img {
+    height: 60px;
 }

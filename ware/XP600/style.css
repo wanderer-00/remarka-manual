@@ -1,0 +1,22 @@
+.programs {
+    display: flex;
+    grid-gap: 20px;
+    text-align: center;
+}
+
+.programs a {
+    width: 100px;
+    display: block;
+    -webkit-box-shadow: var(--shadow);
+    -moz-box-shadow: var(--shadow);
+    box-shadow: var(--shadow);
+    padding: 8px;
+    border-radius: 8px;
+    &:hover {
+        background-color: #EEE;
+    }
+}
+
+.programs a img {
+    height: 60px;
+}

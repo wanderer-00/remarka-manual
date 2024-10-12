@@ -9,3 +9,8 @@
 body {
     font-family: sans-serif;
 }
+
+.preview {
+    height: 300px;
+    border: 1px solid red
+}

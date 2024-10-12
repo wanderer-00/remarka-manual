@@ -20,6 +20,7 @@
         float: left;
         outline: 1px #f00 border;
         perspective-origin: 50% 50%;
+        border: 1px solid red
     }
 
     .camera-crow {
@@ -46,17 +47,18 @@
         transform-origin: 0% 0%;
         width: 349.6px -1;
         height: 460px;
-        background: #999;
+        background: green;
     }
 
     .book_front,
     .book_back {
+        align-content: center;
         width: 349.6px;
-        height: 460px;
+        height: 260px;
         transform-style: preserve-3d;
         transform: rotateY(0deg) translateZ(11.5px);
         position: absolute;
-        background: #666;
+        background: red;
         background-position: -200% 100%, right top, center top, left top;
         background-size: 500% 200%, auto 100%, auto 100%, auto 100%;
     }
@@ -224,17 +226,21 @@
     <input class="animate" type="radio" name="view" value="animate" checked /> Анимация<br />
 
     <!-- CONTROL CAMERA POSITION HEIGHT-->
-    <p>Камера:</p>
-    <input class="camera-worm" type="radio" name="camera" value="camera-worm" /> Положение снизу
-    <input class="camera-center" type="radio" name="camera" value="camera-center" checked /> Положение Нормально
-    <input class="camera-crow" type="radio" name="camera" value="camera-crow" /> Положение сверзу
+    Камера:
+    <input class="camera-worm" type="radio" name="camera" value="camera-worm" /> Снизу
+    <input class="camera-center" type="radio" name="camera" value="camera-center" checked /> Середина
+    <input class="camera-crow" type="radio" name="camera" value="camera-crow" /> Сверху
 
 
     <!-- stage-->
     <div class="stage">
         <div class="book_group">
-            <div class="book_back"></div>
-            <div class="book_front"></div>
+            <div class="book_back">
+                <img src="sample.svg">
+            </div>
+            <div class="book_front">
+                <img src="sample.svg">
+            </div>
         </div>
     </div>
 

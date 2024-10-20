@@ -24,7 +24,7 @@
 <img src="img/poster.jpg" height="200px">
 <img src="img/devices.png">
 Проблема: не устанавливается драйвер
-```W_Device 2.0.exe```
+<b>W_Device 2.0.exe</b>
 <img src="img/DPinst.exe_error.png">
 
 

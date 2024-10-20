@@ -17,6 +17,6 @@
 - Установка win 7 x64
 
 ## Письмо в поддержку
-<a href="https://u.wechat.com/MLusoXAwFwLZH03HaIT8UBg">WeChat</a>
-<a href="info@color-sun.com">info@color-sun.com</a>
-<a href="">WhatsApp:+86 18607557659</a>
+<a href="https://u.wechat.com/MLusoXAwFwLZH03HaIT8UBg">WeChat</a><br>
+<a href="info@color-sun.com">info@color-sun.com</a><br>
+<a href="">WhatsApp:+86 18607557659</a><br>

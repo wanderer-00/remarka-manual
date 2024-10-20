@@ -25,4 +25,6 @@
 <img src="img/devices.png">
 Проблема: не устанавливается драйвер
 `W_Device 2.0.exe`
+<img src="img/DPinst.exe_error.png">
+
 

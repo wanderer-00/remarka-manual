@@ -22,5 +22,7 @@
 <a href="">WhatsApp:+86 18607557659</a><br>
 
 <img src="img/poster.jpg" height="200px">
+<img src="img/devices.png" height="200px">
 Проблема: не устанавливается драйвер
 `W_Device 2.0.exe`
+

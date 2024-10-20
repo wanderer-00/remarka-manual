@@ -17,7 +17,6 @@
 - Установка win 7 x64
 
 ## Письмо в поддержку
-<a href="https://coloryang.diytrade.com/sdm/337300/4/pd-1485445/21107584-2969419/A3_Size_2_In_1_With_Laminator_Direct_To_Ab_Film_UV.html">QR-code</a>
 <a href="https://u.wechat.com/MLusoXAwFwLZH03HaIT8UBg">WeChat</a>
-<a href=""></a>
-<a href=""></a>
+<a href="info@color-sun.com">info@color-sun.com</a>
+<a href="">WhatsApp:+86 18607557659</a>

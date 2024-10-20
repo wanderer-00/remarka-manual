@@ -21,7 +21,6 @@
 <a href="info@color-sun.com">info@color-sun.com</a><br>
 <a href="">WhatsApp:+86 18607557659</a><br>
 
-фото принтера
-
+<img src="img/poster.jpg" height="200px">
 Проблема: не устанавливается драйвер
 `W_Device 2.0.exe`

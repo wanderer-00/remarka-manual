@@ -1,5 +1,6 @@
 # <a href="https://www.color-sun.com/sdp/337300/4/pd-1485445/21107584-2969419/A3_Size_2_In_1_With_Laminator_Direct_To_Ab_Film_UV.html">COLORSUN UV DTF</a>
 <img src="img/poster.jpg" height="200px">
+
 > [!NOTE]
 > Статус: Сомнительная работоспособность
 

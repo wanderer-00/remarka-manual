@@ -5,7 +5,7 @@
 
 ## Файлы и программы
 Операционная система: <a href="https://drive.google.com/file/d/1hzp1NbWG_6A65wKcboNnkrFJYTbLoo3A/view?usp=sharing">en_windows_10_version_1511_updated_feb_2016_x64_dvd_10586.iso</a>
-Vprint
+Риповщик: Vprint
 
 ## Ключи
 

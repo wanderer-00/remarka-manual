@@ -24,16 +24,3 @@
 
 ## Ключи
 1 USB-накопитель
-
-## Письмо в поддержку
-<a href="https://u.wechat.com/MLusoXAwFwLZH03HaIT8UBg">WeChat</a><br>
-<a href="info@color-sun.com">info@color-sun.com</a><br>
-<a href="">WhatsApp:+86 18607557659</a><br>
-
-<img src="img/poster.jpg" height="200px">
-<img src="img/devices.png">
-Проблема: не устанавливается драйвер
-<a href="driver/W_Device 2.0.exe">W_Device 2.0.exe</a>
-<img src="img/DPinst.exe_error.png">
-
-

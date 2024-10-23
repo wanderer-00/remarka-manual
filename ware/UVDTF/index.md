@@ -19,8 +19,10 @@
 </pre>
 
 ## Файлы и программы
+<pre>
 Операционная система: <a href="https://drive.google.com/file/d/1hzp1NbWG_6A65wKcboNnkrFJYTbLoo3A/view?usp=sharing">en_windows_10_version_1511_updated_feb_2016_x64_dvd_10586.iso</a>
 Риповщик: Vprint (<a href="https://colorart.ru/raster-image-processor/">что такое риповщик?</a>) [нужно спиздить статью и переписать]
+<pre>
 
 ## Ключи
 1 USB-накопитель

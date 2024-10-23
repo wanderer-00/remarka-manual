@@ -1,6 +1,7 @@
 # <a href="https://www.color-sun.com/sdp/337300/4/pd-1485445/21107584-2969419/A3_Size_2_In_1_With_Laminator_Direct_To_Ab_Film_UV.html">COLORSUN UV DTF</a>
 <img src="img/poster.jpg" height="200px">
 <p>Статус: Сомнительная работоспособность</p>
+
 ## История
 [18.10.24] Проблема с пленкой "A"<br>
 [19.10.24] Замена пленки "A" на новую<br>

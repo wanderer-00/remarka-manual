@@ -1,33 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Главная страница</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+<style>
+    .menu {
+        display: grid;
+        flex-wrap: wrap;
+        grid-gap: 20px;
+/*        border: 1px solid red;*/
+    }
+
+    .menu>a {
+        display: grid;
+        border-radius: 10px;
+        padding: 10px;
+        border: 1px solid green;
+    }
+
+    .menu>a>img {
+        height: 140px
+    }
+
+</style>
+
 <body>
-    
+
     <div class="WRAPPER">
         <header></header>
         <main>
             <div class="wrapper">
-                
-                <p>Собрание инструкций и обучающих маиериалов по работе с аппаратурой типографии Remarka</p>
-
                 <h3>Оборудование</h3>
-                <a href="ware/GRAPHTEC CE7000-60/index.html">GRAPHTEC CE7000-60</a><br>
-                <a href="ware/XP600/index.html">XP600</a><br>
-                <a href="ware/VULCAN FC-500VC/index.html">VULCAN FC-500VC</a><br>
-                <a href="ware/ineo+ 4065/">ineo+ 4065</a><br>
-                <a href="#">BoWay 4606 v8.5</a>
-                <a href="#">Mimaki</a><br>
+                <div class="menu">
+                    <a href="ware/UVDTF/index.html">
+                        <img src="ware/UVDTF/img/poster.jpg">
+                        <div>GRAPHTEC CE7000-60</div>
+                    </a>
+
+                    <a href="ware/GRAPHTEC CE7000-60/index.html">
+                        <img src="img/graftec.jpg">
+                        <div>GRAPHTEC CE7000-60</div>
+                    </a>
+
+                    <a href="ware/XP600/index.html">
+                        <img src="ware/XP600/img/poster.png">
+                        <div>DTF XP600</div>
+                    </a>
+
+                    <a href="ware/VULCAN FC-500VC/index.html">
+                        <img src="img/vulcan.jpg">
+                        <div>VULCAN FC-500VC</div>
+                    </a>
+
+                    <a href="#">
+                        <img src="ware/ineo+ 4065/img/poster.jpg">
+                        <div>ineo+ 4065</div>
+                    </a>
+
+                    <a href="#">
+                        <img src="">
+                        <div>BoWay 4606 v8.5</div>
+                    </a>
+
+                    <a href="#">
+                        <img src="">
+                        <div>Mimaki</div>
+                    </a>
+                </div>
             </div>
-            
+
+            <!--
             <div class="calibration">
                 <h2>КАЛИБРОВКА DTF</h2>
                 <p>H1 (head1) - Цветная голова</p>
                 <p>H2 (head2) - Белая голова</p>
-                
+
                 <h2>VERTICAL</h2>
                 <div class="preview">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="200px" viewBox="0 0 300 300">
@@ -62,11 +113,12 @@
                         <td><input type="number" value="407" style="text-align: center"></td>
                     </tr>
                 </table>
-                
-            </div>
+
+            </div>-->
         </main>
         <footer></footer>
     </div>
-    
+
 </body>
+
 </html>

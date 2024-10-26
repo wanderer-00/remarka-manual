@@ -23,8 +23,13 @@
 ## Файлы и программы
 <pre>
 Операционная система: <a href="https://drive.google.com/file/d/1hzp1NbWG_6A65wKcboNnkrFJYTbLoo3A/view?usp=sharing">en_windows_10_version_1511_updated_feb_2016_x64_dvd_10586.iso</a>
-Риповщик: Vprint (<a href="https://colorart.ru/raster-image-processor/">что такое риповщик?</a>) [нужно спиздить статью и переписать]
+Программа управления принтером: Vprint (<a href="https://colorart.ru/raster-image-processor/">что такое риповщик?</a>) [нужно спиздить статью и переписать]
+Риповщик (RIP): RIIN
+Файлы настроек для RIIN: 6PASS 8PASS
 </pre>
 
-## Ключи
-1 USB-накопитель
+## Физические компоненты
+<pre>
+USB-ключь для разблокировки настроек RIIN
+USB-накопитель с инструкциями по работе с машиной
+</pre>

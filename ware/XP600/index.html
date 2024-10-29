@@ -1,199 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>XP600</title>
+    <link rel="stylesheet" href="../../style.css">
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
+<style>
+    video {
+        width: 100%
+    }
+</style>
+
 <body>
     <div class="WRAPPER">
-        <h1>DTF принтер на головах XP600</h1>
-        <img src="img/poster.png" height="240px" alt="DTF принтер на голове XP600 вид с переди">
-
-        <h2>Программы для работы</h2>
-
-        <div class="programs">
-            <a href="https://www.uv-printer.ru/service/software-download/">
-                <div>
-                    <img src="img/logo_programs/printexp.png" alt=""><br>
-                    <p>PrintExp</p>
-                </div>
-            </a>
-
-            <a href="https://www.thinksai.com/products-flexi-dtfdtg/">
-                <div>
-                    <img src="img/logo_programs/product_manager.jpg" alt="">
-                    <p>Product Manager 19</p>
-                </div>
-            </a>
-
-            <a href="https://www.coreldraw.com/en/">
-                <div>
-                    <img src="img/logo_programs/coreldraw.svg" alt="">
-                    <p>CorelDraw</p>
-                </div>
-            </a>
-
-            <a href="https://www.adobe.com/ru/products/photoshop.html">
-                <div>
-                    <img src="img/logo_programs/photoshop.svg" alt="">
-                    <p>Photoshop</p>
-                </div>
-            </a>
-        </div>
-
-        <h2>Создание макета</h2>
-        <div class="manual">
-            <h3>Создание макета в CorelDraw</h3>
-            <p>Удаление лишних элементов</p>
-            <img src="">
-            <p>Проверка заливки</p>
-            <img src="">
-            <p>Импорт в PDF файл</p>
-            <img src="">
-            
-            <h3>Создание подложки в PhotoShop</h3>
-            <p>Расширение холста для создание отступа от изображения (чтоб корректно сработало сжатие выделения)</p>
-            <img src="">
-            <p>Выделение объекта CTRL + LBM</p>
-            <img src="">
-            <p>Сжатие выделения 1-2 px (или провести каллибровку голов)</p>
-            <img src="">
-            <p>Создание "Новый плашечный канал..."</p>
-            <p>Сохранение в PDF файл</p>
-            <img src="img/manual/Photoshop_NYTEw3EPOM.png">
-        </div>
-            <li>Риповка макета в Product Manager 19</li>
-            <li>Запуск печати в PrintExp</li>
-        </ol>
-
-        <h2>Обслуживание принтера</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th scope="col">Месяца =></th>
-                    <th scope="col">1</th>
-                    <th scope="col">2</th>
-                    <th scope="col">3</th>
-                    <th scope="col">4</th>
-                    <th scope="col">5</th>
-                    <th scope="col">6</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Проверка шкивов и ремней</td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td>Чистка роликов подачи материала</td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td>Смазка направляющих рельс</td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td>Проверка капы</td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td>Проверка вайпера</td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td>Замена демферов</td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td>Замена фильтра тонкой очистки</td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                </tr>
-            <tbody>
-        </table>
-        <details>
-            <summary>Подробнее о деталях и их местоположении</summary>
-
-            <div>
-                <div>
-                    <h3>Шкив</h3>
-                    <img src="img/pulley.png" alt="На вид шестерёнка из металла. Диаметром 10 сантиметров и толщиной в 1">
-                </div>
-
-                <div>
-                    <h3>Ролик подачи материала</h3>
-                    <img src="img/roller.jpg" alt="Цилиндр из пластика с отверстием в основаниях и подшипниками, цилиндрическа поверхность прорезинина для лучшей адгезии с материалом. Размер 5 сантиметров в длину и диаметром 1.5">
-                </div>
+        <header>
+            <div class="wrapper">
+                <h1>DTF принтер на головах XP600</h1>
             </div>
+        </header>
 
-        </details>
+        <main>
+            <div class="wrapper">
+                <img src="img/poster.png" height="280px" alt="DTF принтер на голове XP600 вид с переди">
 
+                <h2>Программы для работы</h2>
+                <div class="programs">
+                    <a href="https://www.uv-printer.ru/service/software-download/">
+                        <div>
+                            <img src="img/logo_programs/printexp.png" alt=""><br>
+                            <p>PrintExp</p>
+                        </div>
+                    </a>
 
-        <h2>Ошибки</h2>
-        <div class="errors">
-            <div>
-                <h3>Желтеет принт</h3>
-                <!--                <img src="" alt="Показать различия нормального и плохого принта">-->
-                <p>Снизить температуру печи</p>
+                    <a href="https://www.thinksai.com/products-flexi-dtfdtg/">
+                        <div>
+                            <img src="img/logo_programs/product_manager.jpg" alt="">
+                            <p>Product Manager 19</p>
+                        </div>
+                    </a>
+
+                    <a href="https://www.coreldraw.com/en/">
+                        <div>
+                            <img src="img/logo_programs/coreldraw.svg" alt="">
+                            <p>CorelDraw</p>
+                        </div>
+                    </a>
+
+                    <a href="https://www.adobe.com/ru/products/photoshop.html">
+                        <div>
+                            <img src="img/logo_programs/photoshop.svg" alt="">
+                            <p>Photoshop</p>
+                        </div>
+                    </a>
+                </div>
+
+                <h2>Создание макета</h2>
+                <div class="manual">
+                    <h3>Редактирование макета в CorelDraw</h3>
+                    <p>Удаление лишних элементов (не относящихся к печати)</p>
+                    <video src="video/1.mp4" controls></video>
+                    (обязательно изменение макета согласовывать с дизайнерами)
+
+                    <p>Проверка заливки (попросить дизайнера исправить макет, если есть ошибки в нём. В данном случае непрозрачные отверстия в буквах)</p>
+                    <video src="video/2.mp4" controls></video>
+
+                    <p>Экспорт изображения в PDF файл</p>
+                    <video src="video/3.mp4" controls></video>
+
+                    <h3>Создание подложки в PhotoShop</h3>
+                    <ol>
+                        <li>Выделение объекта CTRL + LBM</li>
+                        <li>Сжатие выделения 1-2 px (или провести каллибровку голов)</li>
+                        <li>Создание "Новый плашечный канал..."</li>
+                        <li>Сохранение в PDF файл</li>
+                    </ol>
+                    <video src="video/ps.mp4" controls></video>
+
+                    <h3>RIP</h3>
+                    <ol>
+                        <li>Импорт файла для "риповки"</li>
+                        <li>Ожидание загрузки файла</li>
+                        <li>Выбор пресета "720x720"</li>
+                        <li>Выделение файла и запуск RIP</li>
+                        <li>Экспорт файла (расширение .prt)</li>
+                    </ol>
+                    <video src="video/pm.mp4" controls></video>
+
+                    <h3>Запуск печати в PrintExp</h3>
+                    <ol>
+                        <li></li>
+                        <li></li>
+                    </ol>
+                    <video src="video/pe.mp4" controls></video>
+                </div>
+
+                <h2>Обслуживание принтера</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Месяца =></th>
+                            <th scope="col">1</th>
+                            <th scope="col">2</th>
+                            <th scope="col">3</th>
+                            <th scope="col">4</th>
+                            <th scope="col">5</th>
+                            <th scope="col">6</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Проверка шкивов и ремней</td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Чистка роликов подачи материала</td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Смазка направляющих рельс</td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Проверка капы</td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Проверка вайпера</td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Замена демферов</td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Замена фильтра тонкой очистки</td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                    <tbody>
+                </table>
+                <details>
+                    <summary>Подробнее о деталях и их местоположении</summary>
+
+                    <div>
+                        <div>
+                            <h3>Шкив</h3>
+                            <img src="img/pulley.png" alt="На вид шестерёнка из металла. Диаметром 10 сантиметров и толщиной в 1">
+                        </div>
+
+                        <div>
+                            <h3>Ролик подачи материала</h3>
+                            <img src="img/roller.jpg" alt="Цилиндр из пластика с отверстием в основаниях и подшипниками, цилиндрическа поверхность прорезинина для лучшей адгезии с материалом. Размер 5 сантиметров в длину и диаметром 1.5">
+                        </div>
+                    </div>
+                </details>
+
+                <h2>Ошибки</h2>
+                <div class="errors">
+                    <div>
+                        <h3>Желтеет принт</h3>
+                        <!--                <img src="" alt="Показать различия нормального и плохого принта">-->
+                        <p>Снизить температуру печи</p>
+                    </div>
+
+                    <div>
+                        <h3>Не запекается клей</h3>
+                        <!--                <img src="" alt="Фото не запекшегося клея">-->
+                        <p>Повысить температуру печи</p>
+                    </div>
+
+                    <div>
+                        <h3>Не запекается клей по краям листа</h3>
+                        <!--                <img src="" alt="Фото не запекшегося клея">-->
+                        <p>Держать лист по центру печи, подобрать оптимальную температуру</p>
+                    </div>
+
+                    <div>
+                        <h3>Не печатается макет из иcтории напечатанных</h3>
+                        <!--                <img src="" alt="Фото не запекшегося клея">-->
+                        <p>Проверить margin и наличие файла в папке</p>
+                    </div>
+                </div>
+
+                <h2>Характеристики</h2>
+                <img src="img/setting.png" width="100%">
             </div>
-
-            <div>
-                <h3>Не запекается клей</h3>
-                <!--                <img src="" alt="Фото не запекшегося клея">-->
-                <p>Повысить температуру печи</p>
-            </div>
-
-            <div>
-                <h3>Не запекается клей по краям листа</h3>
-                <!--                <img src="" alt="Фото не запекшегося клея">-->
-                <p>Держать лист по центру печи, подобрать оптимальную температуру</p>
-            </div>
-
-            <div>
-                <h3>Не печатается макет из иcтории напечатанных</h3>
-                <!--                <img src="" alt="Фото не запекшегося клея">-->
-                <p>Проверить margin и наличие файла в папке</p>
-            </div>
-        </div>
-
-        <h2>Характеристики</h2>
-        <img src="img/setting.png" width="100%">
+        </main>
     </div>
 </body></html>

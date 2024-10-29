@@ -1,13 +1,46 @@
 :root {
-    
+    --txt-color: #343434;
+
+    --scrollbar-width: 8px;
+    --scrollbar-trumb-background-color: rgba(0, 0, 0, .2);
+    --scrollbar-trumb-background-color-hover: rgba(0, 0, 0, .3);
+
+    --shadow: 2px 2px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+/* ScrollBar */
+::-webkit-scrollbar {
+    width: var(--scrollbar-width)
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: var(--scrollbar-trumb-background-color)
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--scrollbar-trumb-background-color-hover)
 }
 
 * {
-    
+    font-family: sans-serif;
 }
 
 body {
+    margin: 0;
+    padding: 0;
     font-family: sans-serif;
+}
+
+header {
+    padding: 1px;
+    color: white;
+    background-color: black;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
 }
 
 .preview {

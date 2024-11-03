@@ -62,6 +62,7 @@ header {
     box-shadow: var(--shadow);
     padding: 8px;
     border-radius: 8px;
+
     &:hover {
         background-color: #EEE;
     }
@@ -69,4 +70,15 @@ header {
 
 .programs a img {
     height: 60px;
+}
+
+
+
+
+.blockShadow {
+    border-radius: 10px;
+    padding: 1em;
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 2px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 2px 8px 0px rgba(34, 60, 80, 0.2);
 }

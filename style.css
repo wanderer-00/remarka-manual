@@ -50,14 +50,15 @@ header {
 
 .programs {
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
     grid-gap: 20px;
     text-align: center;
 }
 
-.programs a {
-    width: 100px;
+.programs a {width: 100px;}
+
+.programs a,
+.button {
     display: block;
     -webkit-box-shadow: var(--shadow);
     -moz-box-shadow: var(--shadow);

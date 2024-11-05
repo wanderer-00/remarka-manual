@@ -13,6 +13,12 @@
     video {
         width: 100%
     }
+
+    .manual {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+    }
 </style>
 
 <body>
@@ -29,20 +35,6 @@
 
                 <h2>Программы для работы</h2>
                 <div class="programs">
-                    <a href="https://www.uv-printer.ru/service/software-download/">
-                        <div>
-                            <img src="img/logo_programs/printexp.png" alt=""><br>
-                            <p>PrintExp</p>
-                        </div>
-                    </a>
-
-                    <a href="https://www.thinksai.com/products-flexi-dtfdtg/">
-                        <div>
-                            <img src="img/logo_programs/product_manager.jpg" alt="">
-                            <p>Product Manager 19</p>
-                        </div>
-                    </a>
-
                     <a href="https://www.coreldraw.com/en/">
                         <div>
                             <img src="img/logo_programs/coreldraw.svg" alt="">
@@ -56,46 +48,83 @@
                             <p>Photoshop</p>
                         </div>
                     </a>
+
+                    <a href="https://www.thinksai.com/products-flexi-dtfdtg/" title="SAi Flexi «Production Manager» 19-ой версии">
+                        <div>
+                            <img src="img/logo_programs/product_manager.jpg" alt="">
+                            <p>PM 19</p>
+                        </div>
+                    </a>
+
+                    <a href="https://www.uv-printer.ru/service/software-download/">
+                        <div>
+                            <img src="img/logo_programs/printexp.png" alt=""><br>
+                            <p>PrintExp</p>
+                        </div>
+                    </a>
                 </div>
 
-                <h2>Создание макета</h2>
+                <h2>Подготовка макета</h2>
                 <div class="manual">
-                    <h3>Редактирование макета в CorelDraw</h3>
-                    <p>Удаление лишних элементов (не относящихся к печати)</p>
-                    <video src="video/1.mp4" controls></video>
-                    (обязательно изменение макета согласовывать с дизайнерами)
+                    <div>
+                        <h3>Удаление лишних элементов (не относящихся к печати)</h3>
+                        <video src="video/1.mp4" controls>
+                            <track kind="subtitles" src="subtitles/1.wtt" srclang="ru" default label="Русский">
+                        </video>
+                        <p>(обязательно изменение макета согласовывать с дизайнерами)</p>
+                    </div>
 
-                    <p>Проверка заливки (попросить дизайнера исправить макет, если есть ошибки в нём. В данном случае непрозрачные отверстия в буквах)</p>
-                    <video src="video/2.mp4" controls></video>
+                    <div>
+                        <h3>Проверка заливки</h3>
+                        <video src="video/2.mp4" controls>
+                            <track kind="subtitles" src="subtitles/2.wtt" srclang="ru" default label="Русский">
+                        </video>
+                        <p>Попросить дизайнера исправить макет, если есть ошибки в нём. В данном случае непрозрачные отверстия в буквах</p>
+                    </div>
 
-                    <p>Экспорт изображения в PDF файл</p>
-                    <video src="video/3.mp4" controls></video>
+                    <div>
+                        <h3>Экспорт изображения в PDF файл</h3>
+                        <video src="video/3.mp4" controls></video>
+                        <ol>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                        </ol>
+                    </div>
 
-                    <h3>Создание подложки в PhotoShop</h3>
-                    <ol>
-                        <li>Выделение объекта CTRL + LBM</li>
-                        <li>Сжатие выделения 1-2 px (или провести каллибровку голов)</li>
-                        <li>Создание "Новый плашечный канал..."</li>
-                        <li>Сохранение в PDF файл</li>
-                    </ol>
-                    <video src="video/ps.mp4" controls></video>
+                    <div>
+                        <h3>Создание подложки в PhotoShop</h3>
+                        <video src="video/ps.mp4" controls></video>
+                        <ol>
+                            <li>Выделение объекта CTRL + LBM</li>
+                            <li>Сжатие выделения 1-2 px (или провести каллибровку голов)</li>
+                            <li>Создание "Новый плашечный канал..."</li>
+                            <li>Сохранение в PDF файл</li>
+                        </ol>
+                    </div>
 
-                    <h3>RIP</h3>
-                    <ol>
-                        <li>Импорт файла для "риповки"</li>
-                        <li>Ожидание загрузки файла</li>
-                        <li>Выбор пресета "720x720"</li>
-                        <li>Выделение файла и запуск RIP</li>
-                        <li>Экспорт файла (расширение .prt)</li>
-                    </ol>
-                    <video src="video/pm.mp4" controls></video>
 
-                    <h3>Запуск печати в PrintExp</h3>
-                    <ol>
-                        <li></li>
-                        <li></li>
-                    </ol>
-                    <video src="video/pe.mp4" controls></video>
+                    <div>
+                        <h3>RIP</h3>
+                        <video src="video/pm.mp4" controls></video>
+                        <ol>
+                            <li>Импорт файла для "риповки"</li>
+                            <li>Ожидание загрузки файла</li>
+                            <li>Выбор пресета "720x720"</li>
+                            <li>Выделение файла и запуск RIP</li>
+                            <li>Экспорт файла (расширение .prt)</li>
+                        </ol>
+                    </div>
+
+                    <div>
+                        <h3>Запуск печати в PrintExp</h3>
+                        <video src="video/pe.mp4" controls></video>
+                        <ol>
+                            <li></li>
+                            <li></li>
+                        </ol>
+                    </div>
                 </div>
 
                 <h2>Обслуживание принтера</h2>

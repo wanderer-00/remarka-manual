@@ -10,6 +10,10 @@
 </head>
 
 <style>
+    .poster {
+        width: 50%
+    }
+
     video {
         width: 100%
     }
@@ -19,6 +23,32 @@
         grid-template-columns: 1fr 1fr;
         grid-gap: 40px;
     }
+
+    .programs {
+        width: 100%;
+        display: flex;
+        grid-gap: 20px;
+        text-align: center;
+    }
+
+    @media (orientation: portrait) {
+        .manual {
+            grid-template-columns: 1fr;
+        }
+
+        .poster {
+            width: 100%
+        }
+
+        .programs {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px;
+            text-align: center;
+        }
+    }
+
 </style>
 
 <body>
@@ -31,7 +61,7 @@
 
         <main>
             <div class="wrapper">
-                <img src="img/poster.png" height="280px" alt="DTF принтер на голове XP600 вид с переди">
+                <img class="poster" src="img/poster.png" alt="DTF принтер на голове XP600 вид с переди">
 
                 <h2>Программы для работы</h2>
                 <div class="programs">
@@ -67,7 +97,7 @@
                 <h2>Подготовка макета</h2>
                 <div class="manual">
                     <div>
-                        <h3>Удаление лишних элементов (не относящихся к печати)</h3>
+                        <h3>Удаление лишних элементов</h3>
                         <video src="video/1.mp4" controls>
                             <track kind="subtitles" src="subtitles/1.wtt" srclang="ru" default label="Русский">
                         </video>
@@ -254,4 +284,6 @@
             </div>
         </main>
     </div>
-</body></html>
+</body>
+
+</html>

@@ -1,3 +1,42 @@
 .manual img {
     max-width: 100%;
 }
+
+.poster {
+    width: 50%
+}
+
+video {
+    width: 100%
+}
+
+.manual {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.programs {
+    width: 100%;
+    display: flex;
+    grid-gap: 20px;
+    text-align: center;
+}
+
+@media (orientation: portrait) {
+    .manual {
+        grid-template-columns: 1fr;
+    }
+
+    .poster {
+        width: 100%
+    }
+
+    .programs {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+        text-align: center;
+    }
+}

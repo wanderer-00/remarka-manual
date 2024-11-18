@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Загруженность DTF линии</title>
+</head>
+<style>
+    .WRAPPER {
+        width: 90%;
+        margin: auto;
+    }
+    
+    body {
+        color: #333333;
+        font-family: sans-serif
+    }
+
+    .cluster {
+        display: grid;
+        grid-gap: 20px;
+/*        border: 1px solid red;*/
+    }
+
+    .cluster>div {
+        display: grid;
+        /*        border: 1px solid green;*/
+        -webkit-box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 0.2);
+        -moz-box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 0.2);
+        box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 0.2);
+        grid-template-columns: 200px 1fr 100px 100px;
+        padding: 10px;
+        border-radius: 8px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .cluster>div * {
+        /*        border: 1px solid blue*/
+    }
+
+    .img {
+        height: 100px;
+        width: 200px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: 1px solid #DDD;
+    }
+</style>
+
+<body>
+    <div class="WRAPPER">
+        <header>
+            <div class="wrapper">
+                <h1>Загруженность DTF линии</h1>
+            </div>
+        </header>
+        <main>
+            <div class="wrapper">
+                <div class="cluster"></div>
+            </div>
+        </main>
+        <footer>
+            <div class="wrapper"></div>
+        </footer>
+    </div>
+</body>
+
+<script type="text/javascript" src="data.js"></script>
+<script type="text/javascript" src="script.js"></script></html>

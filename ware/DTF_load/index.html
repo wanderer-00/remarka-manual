@@ -3,71 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Загруженность DTF линии</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    .WRAPPER {
-        width: 90%;
-        margin: auto;
-    }
-
-    body {
-        color: #333333;
-        font-family: sans-serif
-    }
-
-    .cluster {
-        display: grid;
-        grid-gap: 20px;
-        /*        border: 1px solid red;*/
-    }
-
-    .cluster>div {
-        display: grid;
-        /*        border: 1px solid green;*/
-        -webkit-box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 0.2);
-        -moz-box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 0.2);
-        box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 0.2);
-        grid-template-columns: 200px 1fr 100px 100px;
-        padding: 10px;
-        border-radius: 8px;
-        text-align: center;
-        align-items: center;
-        background: -webkit-linear-gradient(left, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-        background: -o-linear-gradient(left, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-        background: linear-gradient(to right, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-        background-size: 10% 400%;
-        animation: gradient 10s ease infinite;
-        transform: translate3d(0, 0, 0);
-    }
-
-    .cluster>div * {
-        /*        border: 1px solid blue*/
-    }
-
-    .img {
-        height: 100px;
-        width: 200px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        border: 1px solid #DDD;
-    }
-
-    @keyframes gradient {
-        0% {
-            background-position: 0% 50%;
-        }
-
-        50% {
-            background-position: 100% 50%;
-        }
-
-        100% {
-            background-position: 0% 50%;
-        }
-    }
-</style>
-
 <body>
     <div class="WRAPPER">
         <header>

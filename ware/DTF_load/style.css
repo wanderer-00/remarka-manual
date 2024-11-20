@@ -10,11 +10,10 @@ body {
 
 .cluster {
     display: grid;
-    grid-gap: 20px;
     /*        border: 1px solid red;*/
 }
 
-.cluster > div {
+.cluster > .cell {
     display: grid;
     /*        border: 1px solid green;*/
     -webkit-box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 0.2);
@@ -22,28 +21,35 @@ body {
     box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 0.2);
     grid-template-columns: 200px 1fr 100px 100px;
     padding: 10px;
-    border-radius: 8px;
+    border-radius: 8px 8px 0 0;
     text-align: center;
     align-items: center;
+}
+
+.progress {
+    text-shadow: 0 0 2px white;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 0 0 8px 8px;
+    -webkit-box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.progress > div {
+    position: absolute;
+    z-index: -1;
+    height: 20px;
+    border-radius: 0 8px 8px 8px;
     background: -webkit-linear-gradient(left, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background: -o-linear-gradient(left, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background: linear-gradient(to right, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 10% 400%;
-    animation: gradient 10s ease infinite;
+    background-size: 400% 400%;
+    animation: gradient 6s ease infinite;
     transform: translate3d(0, 0, 0);
-}
-
-.cluster > div * {
-    /*        border: 1px solid blue*/
-}
-
-.img {
-    height: 100px;
-    width: 200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    border: 1px solid #DDD;
 }
 
 @keyframes gradient {
@@ -59,3 +65,13 @@ body {
         background-position: 0% 50%;
     }
 }
+
+.img {
+    height: 100px;
+    width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid #DDD;
+}
+

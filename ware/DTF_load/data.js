@@ -40,7 +40,7 @@ let dtfLoad = [
         0
     ],
     [
-        "small.svg",
+        "Tatneftehiminvest_remuvka_(ПР16516,3).svg",
         "Татнефтехиминвестхолдинг",
         [0, 50],
         1,

@@ -10,7 +10,7 @@ let dtfLoad = [
         "ТЕМП им. Короткова",
         [145, 180],
         35.8 / 1.75,
-        0
+        1
     ],
     [
         "Tatneftehiminvest_remuvka_(ПР16516,3).svg",

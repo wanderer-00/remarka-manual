@@ -25,6 +25,6 @@
 
 ## Технологии печати
 ### Пьезоструйная
-<img src="https://www.rdmkit.ru/images/2011-05/7df25.png">
+<img src="https://www.rdmkit.ru/images/2011-05/7df25.png" width="auto">
 Пьезоэлектрическая технология была основана на способности пьезокристаллов к деформации под воздействием на них электрического тока
 <a href="https://www.rdmkit.ru/tech/techpiezostr.html">Источник</a>

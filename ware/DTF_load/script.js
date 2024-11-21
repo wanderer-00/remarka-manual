@@ -12,7 +12,7 @@ for (i = 0; i < dtfLoad.length; i++) {
         </div>
         <div class="progress">
             <div style="width: ${progress}%;"></div>
-            <b>${progress.toFixed(0)}% ~${timeOne(dtfLoad[i][3], dtfLoad[i][2][1], dtfLoad[i][2][0])} ч</b>
+            <b>${progress.toFixed(0)}% ${timeOne(dtfLoad[i][3], dtfLoad[i][2][1], dtfLoad[i][2][0], progress)}</b>
         </div>`;
 };
 
@@ -30,12 +30,16 @@ function status(code) {
 }
 
 // расчет оставшегося времени печати заказа
-function timeOne(time, target, ready) {
+function timeOne(time, target, ready, progress) {
     let timeAll = time;
     let timeOne = timeAll / target;
     let timeReady = timeOne * (target - ready);
-
-    return timeReady.toFixed(1);
+    
+    // проверка закончен ли заказ
+    if( progress == 100 ) {return}
+    else {
+        return `~${timeReady.toFixed(1)} ч`;
+    }
 }
 
 

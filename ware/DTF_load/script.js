@@ -36,10 +36,8 @@ function timeOne(time, target, ready, progress) {
     let timeReady = timeOne * (target - ready);
     
     // проверка закончен ли заказ
-    if( progress == 100 ) {return}
-    else {
-        return `~${timeReady.toFixed(1)} ч`;
-    }
+    if( progress == 100 || progress == 0 ){return ' '}
+    else {return `~${timeReady.toFixed(1)} ч`}
 }
 
 

@@ -1,24 +1,34 @@
-.WRAPPER {
-    width: 90%;
-    margin: auto;
+:root {
+    --shadow: 1px 1px 8px 0px rgba(34, 60, 80, 0.2); /* универсальная тень */
 }
 
 body {
+    margin: 0;
+    padding: 0;
     color: #333333;
     font-family: sans-serif
 }
 
-.cluster {
-    display: grid;
-    /*        border: 1px solid red;*/
+header,
+footer
+{
+    width: 100%;
+    -webkit-box-shadow: var(--shadow);
+    -moz-box-shadow: var(--shadow);
+    box-shadow: var(--shadow);
 }
+
+.WRAPPER {
+    width: 100%;
+}
+
+.cluster {display: grid}
 
 .cluster > .cell {
     display: grid;
-    /*        border: 1px solid green;*/
-    -webkit-box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 0.2);
-    -moz-box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 0.2);
-    box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 0.2);
+    -webkit-box-shadow: var(--shadow);
+    -moz-box-shadow: var(--shadow);
+    box-shadow: var(--shadow);
     grid-template-columns: 200px 1fr 100px 100px;
     padding: 10px;
     border-radius: 8px 8px 0 0;
@@ -35,9 +45,9 @@ body {
     overflow: hidden;
     margin-bottom: 20px;
     border-radius: 0 0 8px 8px;
-    -webkit-box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 0.2);
-    -moz-box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 0.2);
-    box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 0.2);
+    -webkit-box-shadow: var(--shadow);
+    -moz-box-shadow: var(--shadow);
+    box-shadow: var(--shadow);
 }
 
 .progress > div {

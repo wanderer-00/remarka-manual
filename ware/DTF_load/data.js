@@ -12,6 +12,13 @@ let dtfLoad = [
         1
     ],
     [
+        "Tatneftehiminvest_remuvka_(ПР16516,3).svg",
+        "Татнефтехиминвестхолдинг",
+        [0, 50],
+        1,
+        0
+    ],
+    [
         "long.svg",
         "Terebro (футболка) лого на груди",
         [0, 20],
@@ -36,13 +43,6 @@ let dtfLoad = [
         "small.svg",
         "Terebro (кепка) лого сбоку",
         [0, 20],
-        1,
-        0
-    ],
-    [
-        "Tatneftehiminvest_remuvka_(ПР16516,3).svg",
-        "Татнефтехиминвестхолдинг",
-        [0, 50],
         1,
         0
     ]

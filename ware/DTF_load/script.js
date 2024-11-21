@@ -12,7 +12,7 @@ for (i = 0; i < dtfLoad.length; i++) {
         </div>
         <div class="progress">
             <div style="width: ${progress}%;"></div>
-            <b>напечатоно ${progress.toFixed(0)}% до окончания ~${timeOne(dtfLoad[i][3], dtfLoad[i][2][1], dtfLoad[i][2][0])} ч</b>
+            <b>${progress.toFixed(0)}% ~${timeOne(dtfLoad[i][3], dtfLoad[i][2][1], dtfLoad[i][2][0])} ч</b>
         </div>`;
 };
 

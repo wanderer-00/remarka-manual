@@ -27,6 +27,7 @@ body {
 }
 
 .progress {
+    position: relative;
     text-shadow: 0 0 2px white;
     text-align: center;
     align-content: center;

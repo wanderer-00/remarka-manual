@@ -19,11 +19,13 @@ for (i = 0; i < dtfLoad.length; i++) {
 // статус заказа
 function status(code) {
     if (code == 0) {
-        return '<div style="color: orange">ожидание</div>'
+        return '<div style="color: purple">ожидание</div>'
     } else if (code == 1) {
-        return '<div style="color: green">печатается</div>'
+        return '<div style="color: orange">печатается</div>'
     } else if (code == 2) {
         return '<div style="color: blue">на соглосовании</div>'
+    } else if (code == 3) {
+        return '<div style="color: green">готово</div>'
     }
 }
 

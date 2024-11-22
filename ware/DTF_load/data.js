@@ -22,9 +22,9 @@ let dtfLoad = [
     [
         "Tatneftehiminvest_remuvka_(ПР16516,3).svg",
         "Blazar (срочный)",
-        [7, 50],
+        [50, 50],
         0.43 / 1.55,
-        1
+        3
     ],
     [
         "long.svg",

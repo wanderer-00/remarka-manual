@@ -1,0 +1,37 @@
+:root {
+    --shadow: 1px 1px 8px 0px rgba(34, 60, 80, 0.2); /* универсальная тень */
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    font-family: sans-serif;
+}
+
+.WRAPPER {width: 100%}
+
+header,
+footer
+{
+    padding: 1px;
+    width: 100%;
+    -webkit-box-shadow: var(--shadow);
+    -moz-box-shadow: var(--shadow);
+    box-shadow: var(--shadow);
+}
+
+header {margin-bottom: 20px}
+
+footer {margin-top: 20px}
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+}

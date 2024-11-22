@@ -1,4 +1,12 @@
 .cluster {
     width: 100%;
     display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    border: 1px solid red;
+}
+
+.cell {
+    height: 200px;
+    border: 1px solid green;
 }

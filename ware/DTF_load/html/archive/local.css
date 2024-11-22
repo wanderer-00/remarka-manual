@@ -19,6 +19,6 @@
 }
 
 /*---------------------------------------------------*/
-/*
-.cluster {border: 1px solid red}
-.cell {border: 1px solid green}*/
+
+/*.cluster {border: 1px solid red}*/
+.cell {border: 1px solid green}

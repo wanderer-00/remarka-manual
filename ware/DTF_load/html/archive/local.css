@@ -3,12 +3,10 @@
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(4, 1fr);
-    border: 1px solid red;
 }
 
 .cell {
     text-align: center;
-    border: 1px solid green;
 }
 
 .cell .img {
@@ -19,3 +17,8 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+/*---------------------------------------------------*/
+/*
+.cluster {border: 1px solid red}
+.cell {border: 1px solid green}*/

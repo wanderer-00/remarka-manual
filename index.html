@@ -8,8 +8,6 @@
 </head>
 
 <style>
-
-
     .menu {
         display: flex;
         flex-wrap: wrap;
@@ -37,8 +35,25 @@
     .menu>a>img {
         height: 220px
     }
+
     .menu>a>div {
         margin: 20px 0 10px;
+    }
+    
+    .link {
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 10px;
+        margin: 10px 0;
+    }
+
+    .link div {
+        white-space: nowrap;
+        padding: 8px 10px;
+        border-radius: 8px;
+        -webkit-box-shadow: 0px 2px 28px 0px rgba(34, 60, 80, 0.2);
+        -moz-box-shadow: 0px 2px 28px 0px rgba(34, 60, 80, 0.2);
+        box-shadow: 0px 2px 28px 0px rgba(34, 60, 80, 0.2);
     }
 </style>
 
@@ -53,6 +68,16 @@
 
         <main>
             <div class="wrapper">
+                <div class="link">
+                    <a href="html/cup/index.html">
+                        <div>Выбор принтера для сублимации на кружках</div>
+                    </a>
+
+                    <a href="ware/DTF_load/index.html">
+                        <div>Загруженность DTF линии</div>
+                    </a>
+                </div>
+
                 <div class="menu">
                     <a href="ware/UVDTF/index.html">
                         <img src="ware/UVDTF/img/poster.jpg">
@@ -63,7 +88,7 @@
                         <img src="ware/XP600/img/poster.png">
                         <div>DTF XP600</div>
                     </a>
-                    
+
                     <a href="ware/GRAPHTEC CE7000-60/index.html">
                         <img src="img/graftec.jpg">
                         <div>GRAPHTEC CE7000-60</div>
@@ -85,15 +110,6 @@
                     </a>
                 </div>
             </div>
-            
-            <ul>
-                <li>
-                    <a href="ware/DTF_load/index.html">Загруженность DTF линии</a>
-                </li>
-                <li>
-                    <a href="html/cup/index.html">Выбор принтера для сублимации на кружках</a>
-                </li>
-            </ul>
 
             <!--
             <div class="calibration">

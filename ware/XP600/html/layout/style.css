@@ -1,0 +1,20 @@
+video {
+    width: 100%
+}
+.manual img {
+    max-width: 100%;
+}
+.manual {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}
+
+@media (orientation: portrait) {
+    .wrapper {
+        width: 100%;
+    }
+    .manual {
+        grid-template-columns: 1fr;
+    }
+}

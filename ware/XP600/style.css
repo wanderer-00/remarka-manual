@@ -1,19 +1,5 @@
-.manual img {
-    max-width: 100%;
-}
-
 .poster {
-    width: 50%
-}
-
-video {
-    width: 100%
-}
-
-.manual {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 40px;
+    height: 200px;
 }
 
 .programs {
@@ -24,10 +10,6 @@ video {
 }
 
 @media (orientation: portrait) {
-    .manual {
-        grid-template-columns: 1fr;
-    }
-
     .poster {
         width: 100%
     }

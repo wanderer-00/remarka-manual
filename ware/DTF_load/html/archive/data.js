@@ -1,22 +1,40 @@
-let dtfLoad = [
-    [
-        "1.svg",
-        "ХЭ16111/24"
-    ],
-    [
-        "ПР16516,3.svg",
-        "ПР16516,3"
-    ],
-    [
-        "Blazar.svg",
-        "ОК7457-3"
-    ],
-    [
-        "ОА668101L-2.svg",
-        "ОА668101L-2"
-    ],
-    [
-        "ПР16212-6_1.svg",
-        "ОА668101L-2"
-    ],
+let dataDTF = [
+    {
+        "WORK":         "СКА4766",
+        "CLIENT":       "Bala City",
+        "PRODUCT":      "Свитшот детский Toima Kids 2.6, меланж",
+        "COLOR":        "gray",
+        "ARTICLE":      "ПР16210,11",
+        "QUANTITY":     10,
+        "DEPARTMENT":   "DTF",
+        "TERM":         "06.02.25",
+        "NOTE":         "14:00 надо отдать Эдику",
+        "ICONTYPE":     "svg",
+    },
+    
+    {
+        "WORK":         "ДХ6714",
+        "CLIENT":       "GDC",
+        "PRODUCT":      "Коврик для мыши Paddo XL",
+        "COLOR":        "#000",
+        "ARTICLE":      "ПР20125,3",
+        "QUANTITY":     2,
+        "DEPARTMENT":   "DTF",
+        "TERM":         "07.02.25",
+        "NOTE":         "",
+        "ICONTYPE":     "svg",
+    },
+    
+    {
+        "WORK":         "",
+        "CLIENT":       "",
+        "PRODUCT":      "",
+        "COLOR":        "",
+        "ARTICLE":      "",
+        "QUANTITY":     2,
+        "DEPARTMENT":   "",
+        "TERM":         "",
+        "NOTE":         "",
+        "ICONTYPE":     "",
+    },
 ]

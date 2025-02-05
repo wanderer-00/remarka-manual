@@ -1,18 +1,5 @@
 let dataDTF = [
     {
-        "WORK":         "СКА4766",
-        "CLIENT":       "Bala City",
-        "PRODUCT":      "Свитшот детский Toima Kids 2.6, меланж",
-        "COLOR":        "gray",
-        "ARTICLE":      "ПР16210,11",
-        "QUANTITY":     10,
-        "DEPARTMENT":   "DTF",
-        "TERM":         "06.02.25",
-        "NOTE":         "14:00 надо отдать Эдику",
-        "ICONTYPE":     "svg",
-    },
-    
-    {
         "WORK":         "ДХ6714",
         "CLIENT":       "GDC",
         "PRODUCT":      "Коврик для мыши Paddo XL",
@@ -23,6 +10,10 @@ let dataDTF = [
         "TERM":         "07.02.25",
         "NOTE":         "",
         "ICONTYPE":     "svg",
+        "SIZE":         "50x39",
+        "COMPLETED":    "05.02.25 17:45",
+        "PET":          [50,260],
+        "PRICE":        36,
     },
     
     {
@@ -36,5 +27,7 @@ let dataDTF = [
         "TERM":         "",
         "NOTE":         "",
         "ICONTYPE":     "",
+        "SIZE":         "",
+        "COMPLETED":    "",
     },
 ]

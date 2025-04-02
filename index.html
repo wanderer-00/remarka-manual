@@ -1,75 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Типогравское оборудование, инструкции, проблемы, решения" />
     <title>Главная страница</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
-
 <style>
-    .menu {
+    nav {
         display: flex;
         flex-wrap: wrap;
         grid-gap: 1rem;
     }
 
-    .menu>a {
-        display: grid;
+    nav>a {
         border-radius: 4px;
         padding: 0.5rem;
-        -webkit-box-shadow: 0px 2px 8px 0px rgba(34, 60, 80, 0.2);
-        -moz-box-shadow: 0px 2px 8px 0px rgba(34, 60, 80, 0.2);
-        box-shadow: 0px 2px 8px 0px rgba(34, 60, 80, 0.2);
-    }
-
-    .menu>a:hover {
-        -webkit-box-shadow: 0px 2px 28px 0px rgba(34, 60, 80, 0.2);
-        -moz-box-shadow: 0px 2px 28px 0px rgba(34, 60, 80, 0.2);
-        box-shadow: 0px 2px 28px 0px rgba(34, 60, 80, 0.2);
     }
 </style>
 
 <body>
-
-    <div class="WRAPPER">
-        <header>
-            <div class="wrapper"></div>
-        </header>
-
         <main>
             <div class="wrapper">
                 <nav class="link">
-                    <a href="html/cup/index.html">Выбор принтера для сублимации на кружках</a>
-                    <a href="ware/DTF_load/index.html">Загруженность DTF линии</a>
+                    <a class="shadow" href="html/cup/index.html">Выбор принтера для сублимации на кружках</a>
+                    <a class="shadow" href="ware/DTF_load/index.html">Загруженность DTF линии</a>
                 </nav>
-                
+
                 <h3>Оборудование</h3>
-                <div class="menu">
-                    <a href="ware/UVDTF/index.html">
-                        <div>UVDTF</div>
-                    </a>
-
-                    <a href="ware/XP600/index.html">
-                        <div>DTF</div>
-                    </a>
-
-                    <a href="ware/GRAPHTEC CE7000-60/index.html">
-                        <div>GRAPHTEC</div>
-                    </a>
-
-                    <a href="ware/VULCAN FC-500VC/index.html">
-                        <div>VULCAN</div>
-                    </a>
-
-                    <a href="#">
-                        <div>ineo+ 4065</div>
-                    </a>
-
-                    <a href="#">
-                        <div>Резак</div>
-                    </a>
-                </div>
+                <nav>
+                    <a class="shadow" href="pages/UVDTF/index.html">UVDTF</a>
+                    <a class="shadow" href="pages/XP600/index.html">DTF</a>
+                    <a class="shadow" href="pages/GRAPHTEC CE7000-60/index.html">GRAPHTEC</a>
+                    <a class="shadow" href="pages/VULCAN FC-500VC/index.html">VULCAN</a>
+                    <a class="shadow" href="#">ineo+ 4065</a>
+                    <a class="shadow" href="#">Резак</a>
+                </nav>
             </div>
 
             <!--
@@ -115,7 +81,4 @@
 
             </div>-->
         </main>
-        <footer></footer>
-    </div>
-
 </body></html>

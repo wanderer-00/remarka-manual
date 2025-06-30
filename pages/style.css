@@ -2,7 +2,6 @@
     -webkit-box-shadow: var(--shadow);
     -moz-box-shadow: var(--shadow);
     box-shadow: var(--shadow);
-    /*    border: 1px solid red*/
     padding: 2px 18px;
     margin: 10px 0;
 }

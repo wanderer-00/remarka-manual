@@ -1,14 +1,112 @@
-.errors div {
-    -webkit-box-shadow: var(--shadow);
-    -moz-box-shadow: var(--shadow);
-    box-shadow: var(--shadow);
-    padding: 2px 18px;
-    margin: 10px 0;
-}
-
 .errors img {
     max-width: 100%
 }
+
+/* СПОЙЛЕРЫ */
+details {
+    position: relative;
+    border-radius: 4px;
+    border:1px solid rgba(0,0,0,.1);
+    margin-bottom: 2px;
+    overflow: hidden;
+}
+summary {
+    padding:15px;
+    position: relative;
+    font-weight: 700;
+    cursor: pointer;
+}
+details::details-content {
+    display: block;
+    block-size: 0;
+    overflow: hidden;
+    transition: all .5s allow-discrete;
+}
+details[open]::details-content {
+    block-size: auto;
+    block-size: calc-size(auto, size);
+}
+.details__content {
+    padding: 0 15px;
+    display:grid !important;
+    grid-template-rows: 0fr;
+    transition: all .3s ease;
+}
+details[open] .details__content {
+    padding: 15px;
+    grid-template-rows: 1fr;
+}
+summary::marker {
+    content: none;
+}
+summary::after {
+    content: '\203A';
+    position: absolute;
+    transform:rotate(0);
+    right: 15px;
+    top:15px;
+    transform-origin: center; 
+    transition: transform 0.3s ease;
+}
+details[open] summary::after {
+    transform:rotate(90deg);
+}
+.details__content{
+    padding:0 15px;
+}
+details[open] .details__content{
+    padding:15px;
+}
+/* СПОЙЛЕРЫ */
+
+/* ОПОВЕЩЕНИЯ https://github.com/orgs/community/discussions/16925 */
+.notification {
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+}
+
+.NOTE {
+    border-left: 4px solid #4493F8;
+    &::before {
+    content: "ℹ Примечание";
+    color: #4493F8;
+    }
+}
+
+.TIP {
+    border-left: 4px solid #3FB950;
+    &::before {
+    content: "Совет";
+    color: #3FB950;
+    }
+}
+
+.IMPORTANT {
+    border-left: 4px solid #AB7DF8;
+    &::before {
+    content: "Важно";
+    color: #AB7DF8;
+    }
+}
+
+.WARNING {
+    border-left: 4px solid #D29922;
+    &::before {
+    content: "Предупреждение";
+    color: #D29922;
+    }
+}
+
+.CAUTION {
+    border-left: 4px solid #F85149;
+    &::before {
+    content: "Пиздец важно";
+    color: #F85149;
+    }
+}
+/* ОПОВЕЩЕНИЯ */
+
+
 
 @media (orientation: portrait) {
     .wrapper {

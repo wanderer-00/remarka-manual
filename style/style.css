@@ -19,6 +19,8 @@
 
 * {box-sizing: border-box}
 
+.no-select {user-select: none}
+
 .shadow {
     -webkit-box-shadow: var(--shadow);
     -moz-box-shadow: var(--shadow);
@@ -57,7 +59,7 @@ body {
 }
 
 .wrapper {
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 

@@ -9,6 +9,11 @@
     text-align: center;
 }
 
+.duble {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 @media (orientation: portrait) {
     .poster {
         width: 100%

@@ -8,3 +8,10 @@ body {
     width: 80%;
     margin: auto;
 }
+
+@media (orientation: portrait){
+    .wrapper {
+        width: 100%;
+        padding: 1rem;
+    }
+}

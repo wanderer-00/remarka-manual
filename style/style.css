@@ -140,4 +140,8 @@ body {
     .poster img {
         width: 60%;
     }
+    
+    .programs {
+        grid-template-columns: 1fr 1fr;
+    }
 }

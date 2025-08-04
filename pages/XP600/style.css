@@ -2,13 +2,6 @@
     width: 400px;
 }
 
-.programs {
-    width: 100%;
-    display: flex;
-    grid-gap: 20px;
-    text-align: center;
-}
-
 .duble {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -19,11 +12,4 @@
         width: 100%
     }
 
-    .programs {
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-gap: 20px;
-        text-align: center;
-    }
 }

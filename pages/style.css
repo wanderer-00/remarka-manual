@@ -105,11 +105,3 @@ details[open] .details__content{
     }
 }
 /* ОПОВЕЩЕНИЯ */
-
-
-
-@media (orientation: portrait) {
-    .wrapper {
-        width: 90%;
-    }
-}

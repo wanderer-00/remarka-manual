@@ -5,82 +5,80 @@
     <meta name="viewport" content="width=device-width">
     <title>Подготовка макета к печати</title>
     <link rel="stylesheet" href="../../../../style/style.css">
+    <link rel="stylesheet" href="../../../style.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="WRAPPER">
-        <header>
-            <div class="wrapper"></div>
-        </header>
-        <main>
-            <div class="wrapper">
-                <h2>Подготовка макета</h2>
-                <div class="manual">
-                    <div>
-                        <h3>Удаление лишних элементов</h3>
-                        <video src="video/1.mp4" controls>
-                            <track kind="subtitles" src="subtitles/1.wtt" srclang="ru" default label="Русский">
-                        </video>
-                        <p style="color:orangered">Не сохранять измененный макет на сервер!</p>
-                    </div>
-
-                    <div>
-                        <h3>Проверка заливки</h3>
-                        <video src="video/2.mp4" controls>
-                            <track kind="subtitles" src="subtitles/2.wtt" srclang="ru" default label="Русский">
-                        </video>
-                        <p style="color:orangered">Попросить дизайнера исправить макет, если есть ошибки в нём. В данном случае непрозрачные отверстия в буквах</p>
-                    </div>
-
-                    <div>
-                        <h3>Экспорт изображения в PDF файл</h3>
-                        <video src="video/3.mp4" controls>
-                            <track kind="subtitles" src="subtitles/3.wtt" srclang="ru" default label="Русский">
-                        </video>
-                    </div>
-
-                    <div>
-                        <h3>Создание подложки в PhotoShop</h3>
-                        <video src="video/ps.mp4" controls>
-                            <track kind="subtitles" src="subtitles/4.wtt" srclang="ru" default label="Русский">
-                        </video>
-                        <ol>
-                            <li>Выделение всего рисунка на полотне нажимая CTRL + LBM по иконке предпроссмотра слоя</li>
-                            <li>Сжатие выделения на 1-2 px внутрь принта (или провести каллибровку голов)</li>
-                            <li>Создание "Новый плашечный канал..."</li>
-                            <li>Сохранение в PDF файл</li>
-                        </ol>
-                    </div>
-
-
-                    <div>
-                        <h3>RIP</h3>
-                        <video src="video/pm.mp4" controls>
-                            <track kind="subtitles" src="subtitles/5.wtt" srclang="ru" default label="Русский">
-                        </video>
-                        <ol>
-                            <li>Импорт файла для "риповки"</li>
-                            <li>Ожидание загрузки файла</li>
-                            <li>Выбор пресета "720x720"</li>
-                            <li>Выделение файла и запуск RIP</li>
-                            <li>Экспорт файла (расширение .prt)</li>
-                        </ol>
-                    </div>
-
-                    <div>
-                        <h3>Запуск печати в PrintExp</h3>
-                        <video src="video/pe.mp4" controls></video>
-                        <ol>
-                            <li></li>
-                            <li></li>
-                        </ol>
+    <main>
+        <div class="wrapper">
+            <h1>&#128221; Подготовка макета</h1>
+            <div class="manual">
+                <div>
+                    <h2>&#128299; Удаление лишних элементов</h2>
+                    <video controls src="video/1.mp4" poster="img/sample.jpg">
+                        <track kind="subtitles" src="subtitles/1.wtt" srclang="ru" default label="Русский">
+                    </video>
+                    <div class="notification CAUTION">
+                        <p>Не сохранять измененный макет на сервер, с ним работаешь не только ты! Он твой и только твой &#129324;</p>
                     </div>
                 </div>
+
+                <div>
+                    <h2>&#128065;&#65039; Проверка на дефекты</h2>
+                    <video src="video/2.mp4" controls poster="img/sample.jpg">
+                        <track kind="subtitles" src="subtitles/2.wtt" srclang="ru" default label="Русский">
+                    </video>
+                    
+                    <div class="notification TIP">
+                        <p>Попросить дизайнера исправить макет, если есть ошибки в нём. В данном случае непрозрачные отверстия в буквах</p>
+                    </div>
+                </div>
+
+                <div>
+                    <h2>&#128228; Экспорт изображения в PDF файл</h2>
+                    <video src="video/3.mp4" controls poster="img/sample.jpg">
+                        <track kind="subtitles" src="subtitles/3.wtt" srclang="ru" default label="Русский">
+                    </video>
+                </div>
+
+                <div>
+                    <h2>&#127756; Создание подложки в PhotoShop</h2>
+                    <video src="video/ps.mp4" controls poster="img/sample.jpg">
+                        <track kind="subtitles" src="subtitles/4.wtt" srclang="ru" default label="Русский">
+                    </video>
+                    <ol>
+                        <li>Выделение всего рисунка на полотне нажимая CTRL + LBM по иконке предпроссмотра слоя</li>
+                        <li>Сжатие выделения на 1-2 px внутрь принта (или провести каллибровку голов)</li>
+                        <li>Создание "Новый плашечный канал..."</li>
+                        <li>Сохранение в PDF файл</li>
+                    </ol>
+                </div>
+
+
+                <div>
+                    <h2>&#128128; RIP (Raster Image Processor)</h2>
+                    <video src="video/pm.mp4" controls poster="img/sample.jpg">
+                        <track kind="subtitles" src="subtitles/5.wtt" srclang="ru" default label="Русский">
+                    </video>
+                    <ol>
+                        <li>Импорт файла для "риповки"</li>
+                        <li>Ожидание загрузки файла</li>
+                        <li>Выбор пресета "720x720"</li>
+                        <li>Выделение файла и запуск RIP</li>
+                        <li>Экспорт файла (расширение .prt)</li>
+                    </ol>
+                </div>
+
+                <div>
+                    <h2>&#128640; Запуск печати в PrintExp</h2>
+                    <video src="video/pe.mp4" controls poster="img/sample.jpg"></video>
+                    <ol>
+                        <li></li>
+                        <li></li>
+                    </ol>
+                </div>
             </div>
-        </main>
-        <footer>
-            <div class="wrapper"></div>
-        </footer>
-    </div>
+        </div>
+    </main>
 </body></html>

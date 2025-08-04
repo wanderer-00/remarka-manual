@@ -1,14 +1,8 @@
-.wrapper {
-    width: 80%;
-    margin: auto;
+video {
+    width: 100%;
+    border-radius: 0.5rem;
 }
 
-video {
-    width: 100%
-}
-.manual img {
-    max-width: 100%;
-}
 .manual {
     display: grid;
     grid-template-columns: 1fr;

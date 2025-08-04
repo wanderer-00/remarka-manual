@@ -37,7 +37,6 @@ body {
 }
 
 .poster {
-    background-color: rgba(0, 0, 0, .8);
     width: 100%;
     padding: 30px;
     text-align: center;
@@ -49,7 +48,8 @@ body {
 
 .links {
     display: flex;
-    grid-gap: 20px;
+    grid-gap: 1rem;
+    margin: 1rem 0;
 }
 
 .links a img {

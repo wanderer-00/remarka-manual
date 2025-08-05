@@ -131,6 +131,20 @@ body {
 }
 
 
+.button1 {
+    -webkit-box-shadow: var(--shadow);
+    -moz-box-shadow: var(--shadow);
+    box-shadow: var(--shadow);
+    padding: 1rem;
+    border-radius: 8px;
+    display: inline-block;
+    text-decoration: none;
+
+    &:hover {
+        background-color: #EEE;
+    }
+}
+
 @media (orientation: portrait) {
     .wrapper {
         width: 100%;

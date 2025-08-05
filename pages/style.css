@@ -54,6 +54,9 @@ details[open] summary::after {
 .details__content{
     padding:0 15px;
 }
+.details__content ul {
+    margin: 0;
+}
 details[open] .details__content{
     padding:15px;
 }

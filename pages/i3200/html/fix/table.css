@@ -1,0 +1,24 @@
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+}
+
+table th {
+    font-weight: bold;
+    padding: 5px;
+    background: #efefef;
+    border: 1px solid #dddddd;
+}
+
+table td {
+    text-align: center;
+    border: 1px solid #dddddd;
+    padding: 5px;
+}
+
+caption {
+    text-align: left;
+    margin: 1rem 0;
+}

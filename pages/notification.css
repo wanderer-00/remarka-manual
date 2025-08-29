@@ -1,0 +1,54 @@
+/* https://github.com/orgs/community/discussions/16925 */
+:root {
+    --color-not: #4493F8;
+    --color-tip: #3FB950;
+    --color-imp: #AB7DF8;
+    --color-war: #D29922;
+    --color-cau: #F85149;
+}
+
+.notification {
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    border-left: 4px solid black;
+}
+
+.NOTE {
+    border-color: var(--color-not);
+    &::before {
+    content: "ℹ Примечание";
+    color: var(--color-not);
+    }
+}
+
+.TIP {
+    border-color: var(--color-tip);
+    &::before {
+    content: "Совет";
+    color: var(--color-tip);
+    }
+}
+
+.IMPORTANT {
+    border-color: var(--color-imp);
+    &::before {
+    content: "Важно";
+    color: var(--color-imp);
+    }
+}
+
+.WARNING {
+    border-color: var(--color-war);
+    &::before {
+    content: "Предупреждение";
+    color: var(--color-war);
+    }
+}
+
+.CAUTION {
+    border-color: var(--color-cau);
+    &::before {
+    content: "Пиздец важно";
+    color: var(--color-cau);
+    }
+}
